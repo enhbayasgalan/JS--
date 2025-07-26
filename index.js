@@ -194,3 +194,50 @@
 // }
 
 // console.log(secondLargest([1, 3, 7, 4, 6]));
+
+
+
+// function uniqueArray(arr) {
+//     return [...new Set(arr)]
+// }
+
+// console.log(uniqueArray([1, 2, 2, 3, 4, 4, 5]));
+
+
+// Хамгийн урт үгийг олох
+// function findLongestWord(str) {
+//   const words = str.split(' ');
+//   let longest = '';
+
+//   for (let word of words) {
+//     if (word.length > longest.length) {
+//       longest = word;
+//     }
+//   }
+
+//   return longest;
+// }
+
+
+// console.log(findLongestWord("Learning JavaScript step by step")); 
+
+
+
+
+// Хамгийн урт үгийг цэвэрлэж олох (punctuation-гүй)
+// function findCleanLongestWord(str) {
+//     const words = str.split(' ');
+//     let longest = '';
+
+    
+//     for(let word of words) {
+//         const cleanWord = word.replace(/[^\w]/g, ''); // \w гэдэг нь a-z, A-Z, 0-9, _ гэсэн тэмдэгтүүд. Харин ^ нь эсрэг утга, g нь нийт бүх давхардлыг арилгана.
+//         if (cleanWord.length > longest.length) {
+//             longest =cleanWord
+//         }
+//     }
+
+//     return longest  
+// }
+
+// console.log(findCleanLongestWord("Well, hello! How's everything?")); 
