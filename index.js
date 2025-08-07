@@ -241,3 +241,41 @@
 // }
 
 // console.log(findCleanLongestWord("Well, hello! How's everything?")); 
+
+
+
+
+ // Массив доторх давтагдсан тоонуудыг арилгах
+//  function removeDuplicates(arr) {
+//     return arr.filter((num) => arr.indexOf(num) === arr.lastIndexOf(num)) // indexOf === lastIndexOf гэдэг нь тухайн тоо ганц л удаа орсон гэсэн үг.
+//  }
+
+//  console.log(removeDuplicates([1, 2, 3, 2, 4, 1, 5]));
+
+
+
+
+// const numbers = [3, -1, 5, 8, -4, 7, -6, 2, -3, 10];
+// const positiveNums = numbers.filter(num => num > 0)
+// console.log(positiveNums);
+
+// const negativeNums = numbers.filter(num => num < 0)
+// console.log(negativeNums);
+
+// const positiveSum = positiveNums.reduce((sum, num) => sum + num, 0);
+// console.log(positiveSum); 
+
+// const evenNums = numbers.filter(num => num % 2 === 0);
+// console.log(evenNums); 
+
+// const oddCount = numbers.filter(num => num % 2 !== 0).length;
+// console.log(oddCount);
+    
+
+// function removeDuplicates(str) {
+//     const words = str.split(" ");
+//     const uniqueWords = [...new Set(words)];
+//     return uniqueWords.join(" ");
+// }
+
+// console.log(removeDuplicates("hello world hello javascritpt world "));
