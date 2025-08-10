@@ -279,3 +279,34 @@
 // }
 
 // console.log(removeDuplicates("hello world hello javascritpt world "));
+
+// function wordFrequency(str) {
+//     return Object.entries(
+//         str.split(" ").reduce((acc, word) => {
+//             acc[word] = (acc[word] || 0) + 1
+//             return acc
+//         }, {})
+//     )
+//     .map(([word, count]) => ({word, count}))
+//     .sort((a, b) => b.count - a.count)
+// }
+
+// console.log(wordFrequency("apple banana apple orange banana apple"));
+
+
+// function sumOfDuplicates(arr) {
+//   const seen = new Set();
+//   const duplicates = new Set();
+
+//   for (let num of arr) {
+//     if (seen.has(num)) {
+//       duplicates.add(num);
+//     } else {
+//       seen.add(num);
+//     }
+//   }
+
+//   return [...duplicates].reduce((sum, n) => sum + n, 0);
+// }
+
+// console.log(sumOfDuplicates([1, 2, 3, 2, 4, 3, 5, 1]));
